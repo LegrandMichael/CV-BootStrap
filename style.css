@@ -1,46 +1,19 @@
-.row {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
-
 body {
-  padding-top: 10px;
+
+  background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-163904.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Josefin Sans', Arial, sans-serif;
 }
 
 
-[class*="col-"], footer {
-  background-color: lightgreen;
-  border: 2px solid black;
-  border-radius: 6px;
-  line-height: 40px;
-  text-align: center;
+.page-header ul {
+  font-style: italic;
 }
 
-
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
-
-.col-lg-offset-6 {
-  margin-left: 50%;
+.progress-bar {
+  display: block;
+  width: 15%;
+  height: 2em;
 }
